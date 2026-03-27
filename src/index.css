@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sky-blue: #4aa9eb;
+  --color-simpson-yellow: #fed90f;
+  --color-simpson-outline: #000000;
+  --color-primary: #3b82f6;
+  --color-surface: #ecf8ff;
+  --color-on-surface: #003342;
+
+  --font-simpson: "Gochi Hand", cursive;
+  --font-sketch: "Comic Neue", cursive;
+  --font-headline: "Gochi Hand", cursive;
+  --font-body: "Comic Neue", cursive;
+}
+
+body {
+  font-family: var(--font-sketch);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background-color: var(--color-simpson-yellow);
+  color: black;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+  display: inline-block;
+  line-height: 1;
+}
+
+.sketch-border {
+  border: 3px solid #000;
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+}
+
+.sketch-card {
+  background: #fff;
+  border: 2px solid #333;
+  box-shadow: 8px 8px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 2% 6% 5% 4% / 1% 1% 2% 4%;
+}
+
+.sketchy-img {
+  border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  border: 2px solid #000;
+}
+
+.cloud {
+  background: white;
+  border-radius: 100px;
+  position: absolute;
+  filter: blur(25px);
+  opacity: 0.7;
+}
