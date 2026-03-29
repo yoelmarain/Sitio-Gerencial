@@ -6,11 +6,7 @@ export default function Footer() {
           Dreamers
         </div>
 
-        <p className="text-black/70 mb-4">
-          © 2024 Team Dreamers - Hecho con optimismo orgánico
-        </p>
-
-        <div className="flex gap-8 justify-center mb-8">
+        <div className="flex gap-8 justify-center mb-6">
           <a
             href="#"
             className="text-black font-bold hover:text-simpson-yellow transition-colors"
@@ -18,7 +14,7 @@ export default function Footer() {
             Privacidad
           </a>
           <a
-            href="#"
+            href="mailto:jmarain62@gmail.com"
             className="text-black font-bold hover:text-simpson-yellow transition-colors"
           >
             Contacto
@@ -31,9 +27,6 @@ export default function Footer() {
           </span>
           <span className="material-symbols-outlined text-black scale-125">
             auto_awesome
-          </span>
-          <span className="material-symbols-outlined text-black scale-125">
-            favorite
           </span>
         </div>
       </div>
