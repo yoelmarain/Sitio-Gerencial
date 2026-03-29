@@ -42,10 +42,12 @@ export default function Navbar() {
 
         <button
           onClick={() => setMenuOpen((prev) => !prev)}
-          className="md:hidden material-symbols-outlined text-black text-3xl cursor-pointer"
+          className="block md:hidden cursor-pointer"
           aria-label="Abrir menú"
         >
-          {menuOpen ? 'close' : 'menu'}
+          <span className="material-symbols-outlined text-black text-3xl">
+            {menuOpen ? 'close' : 'menu'}
+          </span>
         </button>
       </div>
 
