@@ -9,7 +9,7 @@ export default function DesafiosSection() {
           Equipo Dreamers
         </span>
         <h1 className="text-6xl md:text-7xl font-headline font-bold text-black mb-6 leading-tight">
-          Nuestros Desafíos
+           Desafíos
         </h1>
       </header>
 
