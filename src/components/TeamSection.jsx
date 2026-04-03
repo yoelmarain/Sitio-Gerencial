@@ -8,7 +8,7 @@ export default function TeamSection() {
         <section className="mb-12">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-headline font-bold text-black mb-4">
-              Presentación del Equipo
+              El Equipo
             </h2>
             <div className="h-1 w-32 bg-black mx-auto mb-8" />
             <p className="text-black/70 text-lg">&nbsp;</p>
