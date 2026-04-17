@@ -5,6 +5,7 @@ import logoNegro from '../assets/logo-negro.png'
 const navItems = [
   { to: '/', label: 'Inicio' },
   { to: '/desafios', label: 'Desafíos' },
+  { to: '/actividades', label: 'Actividades' },
   { to: '/tpi', label: 'TPI' },
 ]
 
