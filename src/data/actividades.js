@@ -9,6 +9,11 @@ const actividades = [
     link: "https://docs.google.com/spreadsheets/d/1SIj3tx-IyaHAZIrTu8w69-m5AGLuwHHHZpJKQichEM8/edit?usp=sharing",
     tipo: "sheets",
   },
+  {
+    titulo: "Diagrama de Causa-Efecto",
+    link: 'https://docs.google.com/document/d/10u8nyw3T2xjuEtwlQMSaiGvgiAWcU_Low9czxh8VNn8/edit?usp=sharing',
+    tipo: "docs"
+  }
 ]
 
 export default actividades

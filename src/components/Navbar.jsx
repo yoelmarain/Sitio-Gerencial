@@ -4,10 +4,11 @@ import logoNegro from '../assets/logo-negro.png'
 
 const navItems = [
   { to: '/', label: 'Inicio' },
-  { to: '/desafios', label: 'Desafíos' },
   { to: '/actividades', label: 'Actividades' },
   { to: '/tpi', label: 'TPI' },
 ]
+
+// Arriba comente la navagcion hacia la seccion desafios
 
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
