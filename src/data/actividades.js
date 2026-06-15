@@ -13,7 +13,13 @@ const actividades = [
     titulo: "Diagrama de Causa-Efecto",
     link: 'https://docs.google.com/document/d/10u8nyw3T2xjuEtwlQMSaiGvgiAWcU_Low9czxh8VNn8/edit?usp=sharing',
     tipo: "docs"
+  },
+  {
+    titulo: "Visita Experto",
+    link: 'https://docs.google.com/document/d/1xUFZCIsQHqnT9P0aXztVQGx857BKh7mF-bpD_5PBiZI/edit?usp=sharing',
+    tipo: "docs"
   }
+
 ]
 
 export default actividades

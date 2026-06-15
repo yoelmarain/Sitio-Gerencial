@@ -18,8 +18,8 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
-          <Link to="/desafios" className="bg-simpson-yellow text-black border-2 border-black px-10 py-4 font-bold text-lg hover:translate-x-1 hover:translate-y-1 transition-transform -rotate-1 cursor-pointer">
-            Ver Desafíos
+          <Link to="/actividades" className="bg-simpson-yellow text-black border-2 border-black px-10 py-4 font-bold text-lg hover:translate-x-1 hover:translate-y-1 transition-transform -rotate-1 cursor-pointer">
+            Ver Actividades
           </Link>
           <Link to="/tpi" className="bg-white text-black border-2 border-black px-10 py-4 font-bold text-lg hover:-translate-x-1 hover:-translate-y-1 transition-transform rotate-1 cursor-pointer">
             Ver TPI
