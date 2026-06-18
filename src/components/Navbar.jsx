@@ -6,6 +6,7 @@ const navItems = [
   { to: '/', label: 'Inicio' },
   { to: '/actividades', label: 'Actividades' },
   { to: '/tpi', label: 'TPI' },
+  { to: '/rpa', label: 'RPA' },
 ]
 
 // Arriba comente la navagcion hacia la seccion desafios

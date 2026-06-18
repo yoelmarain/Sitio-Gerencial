@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Desafios from './pages/Desafios'
 import Actividades from './pages/Actividades'
 import Tpi from './pages/Tpi'
+import Rpa from './pages/Rpa'
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
       { path: 'desafios', element: <Desafios /> },
       { path: 'actividades', element: <Actividades /> },
       { path: 'tpi', element: <Tpi /> },
+      { path: 'rpa', element: <Rpa /> },
     ],
   },
 ])
