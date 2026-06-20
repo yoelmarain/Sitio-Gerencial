@@ -1,4 +1,6 @@
 import yoelRpaImage from '../assets/RPA/Yoel.png'
+import ValentinoRpaImage from '../assets/RPA/Valen.jpeg'
+import JoaquinRpaImage from '../assets/RPA/Joaquin.png'
 
 const rpas = [
   {
@@ -9,8 +11,8 @@ const rpas = [
   },
   {
     name: 'Joaquin Bianciotto',
-    imageUrl: '/dreamers-logo.png',
-    documentUrl: 'https://example.com/rpa-joaquin-bianciotto',
+    imageUrl: JoaquinRpaImage,
+    documentUrl: 'https://docs.google.com/document/d/1vFJKpKDdgb-7P8a6h9w0Fkr3oyCxddNeQI-vGcNrWBU/edit?usp=sharing',
     description: 'RPA orientada a conectar aprendizaje técnico, planificación y mejora continua.',
   },
   {
@@ -21,8 +23,8 @@ const rpas = [
   },
   {
     name: 'Valentino Honnorat',
-    imageUrl: '/dreamers-logo.png',
-    documentUrl: 'https://example.com/rpa-valentino-honnorat',
+    imageUrl: ValentinoRpaImage,
+    documentUrl: 'https://docs.google.com/document/d/1ApFakNIRAQAgMTeS4kgDXY8EMQgZCe1Lv37fjfARhMY/edit?usp=sharing',
     description: 'RPA orientada a integrar herramientas digitales, procesos y capacidades profesionales.',
   },
   {
