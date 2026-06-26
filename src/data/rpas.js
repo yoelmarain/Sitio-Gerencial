@@ -1,12 +1,14 @@
 import yoelRpaImage from '../assets/RPA/Yoel.png'
 import ValentinoRpaImage from '../assets/RPA/Valen.jpeg'
 import JoaquinRpaImage from '../assets/RPA/Joaquin.png'
+import AgustinRpaImage from '../assets/RPA/Agustin.png'
+import MartinRpaImage from '../assets/RPA/Martin.png'
 
 const rpas = [
   {
     name: 'Agustin Ferrazzano',
-    imageUrl: '/dreamers-logo.png',
-    documentUrl: 'https://example.com/rpa-agustin-ferrazzano',
+    imageUrl: AgustinRpaImage,
+    documentUrl: 'https://docs.google.com/document/d/1hxJbDJiSOpiS1Bfn9P1QqdIUR0vGD0aU2gIZDfnuG7s/edit?usp=sharing',
     description: 'RPA enfocada en fortalecer competencias de gestión, análisis y toma de decisiones.',
   },
   {
@@ -17,8 +19,8 @@ const rpas = [
   },
   {
     name: 'Martin Lopez Soto',
-    imageUrl: '/dreamers-logo.png',
-    documentUrl: 'https://example.com/rpa-martin-lopez-soto',
+    imageUrl: MartinRpaImage,
+    documentUrl: 'https://docs.google.com/document/d/1dLaqYVf1ZjW5yBipBfh7oE49o904FsyKj7hr_oS0cro/edit?usp=sharing',
     description: 'RPA centrada en desarrollar habilidades de liderazgo, gestión y pensamiento estratégico.',
   },
   {

@@ -15,6 +15,11 @@ const actividades = [
     tipo: "docs"
   },
   {
+    titulo: "Desafio 7 - Martin Lopez Soto",
+    link: 'https://docs.google.com/document/d/1K78xZxcvfSDkl4mCD2Ftf_1MWIhG-4j-qsXjunJXgmA/edit?usp=sharing',
+    tipo: "docs"
+  },
+  {
     titulo: "Visita Experto",
     link: 'https://docs.google.com/document/d/1xUFZCIsQHqnT9P0aXztVQGx857BKh7mF-bpD_5PBiZI/edit?usp=sharing',
     tipo: "docs"
