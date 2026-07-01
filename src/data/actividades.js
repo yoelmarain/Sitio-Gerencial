@@ -10,6 +10,11 @@ const actividades = [
     tipo: "sheets",
   },
   {
+    titulo: "Desafio 6",
+    link: 'https://docs.google.com/document/d/1qm741v5SkWS16jVeib-xFhe8dcXrbX-QG-1w3yhBvKU/edit?usp=sharing',
+    tipo: "docs"
+  },
+  {
     titulo: "Diagrama de Causa-Efecto",
     link: 'https://docs.google.com/document/d/10u8nyw3T2xjuEtwlQMSaiGvgiAWcU_Low9czxh8VNn8/edit?usp=sharing',
     tipo: "docs"

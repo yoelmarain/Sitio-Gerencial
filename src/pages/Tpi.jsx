@@ -1,4 +1,5 @@
 import documentoUrl from '../assets/TPI - Dreamers.pdf'
+import actaUrl from '../assets/Acta.pdf'
 import infografiaUrl from '../assets/tpi-infografia.png'
 
 export default function Tpi() {
@@ -27,28 +28,53 @@ export default function Tpi() {
           </div>
         </article>
 
-        <aside className="bg-simpson-yellow sketch-border p-8 md:p-10 text-black rotate-1 shadow-organic-lg">
-          <span className="material-symbols-outlined text-6xl mb-4 block">
-            description
-          </span>
-          <h2 className="text-4xl md:text-5xl font-headline font-bold mb-4 leading-none">
-            Documento TPI
-          </h2>
-          <p className="text-lg font-bold mb-8">
-            Accedé al documento completo del trabajo para consultar el desarrollo, los criterios y las entregas.
-          </p>
-          <a
-            href={documentoUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="inline-flex items-center gap-2 bg-black text-white px-6 py-3 sketch-border font-bold hover:bg-white hover:text-black transition-colors"
-          >
-            Ver documento
-            <span className="material-symbols-outlined text-xl">
-              open_in_new
+        <div className="grid gap-8">
+          <aside className="bg-simpson-yellow sketch-border p-8 md:p-10 text-black rotate-1 shadow-organic-lg">
+            <span className="material-symbols-outlined text-6xl mb-4 block">
+              description
             </span>
-          </a>
-        </aside>
+            <h2 className="text-4xl md:text-5xl font-headline font-bold mb-4 leading-none">
+              Documento TPI
+            </h2>
+            <p className="text-lg font-bold mb-8">
+              Accedé al documento completo del trabajo para consultar el desarrollo, los criterios y las entregas.
+            </p>
+            <a
+              href={documentoUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center gap-2 bg-black text-white px-6 py-3 sketch-border font-bold hover:bg-white hover:text-black transition-colors"
+            >
+              Ver documento
+              <span className="material-symbols-outlined text-xl">
+                open_in_new
+              </span>
+            </a>
+          </aside>
+
+          <aside className="bg-white sketch-border p-8 md:p-10 text-black rotate-[-1deg] shadow-organic-lg">
+            <span className="material-symbols-outlined text-6xl mb-4 block">
+              contract
+            </span>
+            <h2 className="text-4xl md:text-5xl font-headline font-bold mb-4 leading-none">
+              Acta Acuerdo
+            </h2>
+            <p className="text-lg font-bold mb-8">
+              Consultá el acta acuerdo firmada con la empresa.
+            </p>
+            <a
+              href={actaUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center justify-center gap-2 bg-black text-white px-6 py-3 sketch-border font-bold hover:bg-simpson-yellow hover:text-black transition-colors"
+            >
+              Ver acta
+              <span className="material-symbols-outlined text-xl">
+                open_in_new
+              </span>
+            </a>
+          </aside>
+        </div>
       </div>
     </section>
   )
